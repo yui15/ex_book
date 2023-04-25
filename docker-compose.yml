@@ -1,0 +1,7 @@
+version: "3"
+services :
+  study:
+    build: .
+    volumes:
+      - .:/study
+    working_dir: /study
