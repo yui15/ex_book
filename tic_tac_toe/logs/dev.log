@@ -402,3 +402,83 @@ State: %{}
 Last message: :process_command
 State: %{}
 11:17:06.352 [info] Application tic_tac_toe exited: shutdown
+07:42:19.538 [info] The game agent started.
+07:42:19.540 [info] The console started.
+07:42:19.547 [debug] state: %{}
+07:42:32.194 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+07:42:32.205 [info] The console started.
+07:42:32.205 [debug] state: %{}
+07:42:32.205 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+07:42:32.205 [info] The console started.
+07:42:32.205 [debug] state: %{}
+07:42:32.206 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+07:42:32.206 [info] The console started.
+07:42:32.206 [debug] state: %{}
+07:42:32.206 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+07:42:32.207 [info] Application tic_tac_toe exited: shutdown
+07:50:47.263 [info] The game agent started.
+07:50:47.264 [info] The console started.
+07:50:47.266 [debug] state: %{}
+10:17:16.467 [info] The game agent started.
+10:17:16.469 [info] The console started.
+10:17:16.472 [debug] state: %{}
+10:44:09.364 [info] The game agent started.
+10:44:09.365 [info] The console started.
+10:44:09.366 [debug] state: %{}
+10:44:31.542 [info] The game agent started.
+10:44:31.543 [info] The console started.
+10:44:31.545 [debug] state: %{}
+10:45:25.326 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_grid/0 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_grid()
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:72: TicTacToe.Console.move/2
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:32: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+10:45:25.332 [info] The console started.
+10:45:25.332 [debug] state: %{}
+10:48:36.933 [info] The game agent started.
+10:48:36.934 [info] The console started.
+10:48:36.936 [debug] state: %{}
+11:26:28.337 [info] The game agent started.
+11:26:28.338 [info] The console started.
+11:26:28.340 [debug] state: %{}
