@@ -38,7 +38,7 @@ defmodule TicTacToe.Game do
     end)
   end
 
-  def set_last_error(cells, y, fn _ -> mark end)
+  def set_last_error(message) do
     Agent.update(__MODULE__, fn state -> %{state | last_error: message} end)
   end
 
