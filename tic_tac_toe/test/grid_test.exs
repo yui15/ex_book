@@ -42,7 +42,7 @@ defmodule TicTacToe.GridTest do
     [:o, :b, :x]
   ]
 
-    describe "get_winner" do
+    describe "get_winner/1" do
       test "勝敗がついていなければnilを返す" do
         assert Grid.get_winner(@playing_grid) == nil
       end

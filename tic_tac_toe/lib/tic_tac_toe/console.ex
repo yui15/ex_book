@@ -57,7 +57,7 @@ defmodule TicTacToe.Console do
     :timer.sleep(500)
 
     grid = Game.get_grid()
-    {x, y} = Enum.random(Grid.get_bland_cells(grid))
+    {x, y} = Enum.random(Grid.get_blank_cells(grid))
     Game.put_mark(x, y)
   end
   

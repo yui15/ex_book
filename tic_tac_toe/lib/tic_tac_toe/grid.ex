@@ -60,7 +60,7 @@ defmodule TicTacToe.Grid do
     |> Enum.map(fn {row, index} -> Enum.at(row, index) end)
   end
 
-  defp get_bland_cells(grid) do
+  defp get_blank_cells(grid) do
     grid
     |> Enum.with_index()
     |> Enum.map(fn {cells, x} -> filter_blank_cells(cells, x) end)
