@@ -10,7 +10,7 @@ defmodule TicTacToe.Console do
       case System.get_env("GAME_MODE") do
         "1" -> :human_vs_human
         "2" -> :human_vs_computer
-        _ -> :computer_vs_computer
+        "3" -> :computer_vs_computer
       end
 
     GenServer.start_link(__MODULE__, %{mode: mode}, name: __MODULE__)
@@ -28,11 +28,13 @@ defmodule TicTacToe.Console do
   def handle_info(:process_command, state) do
     refresh_screen()
 
+    debug("state", state)
+
     case {state.mode, Game.get_turn()} do
       {:human_vs_human, _} -> human_turn()
       {:human_vs_computer, :o} -> human_turn()
       {:human_vs_computer, :x} -> computer_turn()
-      {:computer_vs_computer, :_} -> computer_turn()
+      {:computer_vs_computer, _} -> computer_turn()
     end
  
       judge_result()

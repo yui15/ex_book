@@ -1083,3 +1083,691 @@ State: %{mode: :human_vs_computer}
 Last message: :process_command
 State: %{mode: :human_vs_computer}
 12:01:12.044 [info] Application tic_tac_toe exited: shutdown
+01:55:51.514 [info] The game agent started.
+01:55:51.515 [info] The console started.
+01:55:51.518 [debug] state: %{mode: :human_vs_computer}
+01:55:57.436 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+01:55:57.442 [info] The console started.
+01:55:57.442 [debug] state: %{mode: :human_vs_computer}
+01:55:57.943 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+01:55:57.944 [info] The console started.
+01:55:57.944 [debug] state: %{mode: :human_vs_computer}
+01:55:58.445 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+01:55:58.446 [info] The console started.
+01:55:58.446 [debug] state: %{mode: :human_vs_computer}
+01:55:58.947 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+01:55:58.949 [info] Application tic_tac_toe exited: shutdown
+01:56:31.326 [info] The game agent started.
+01:56:31.327 [info] The console started.
+01:56:31.333 [debug] state: %{mode: :computer_vs_computer}
+01:56:31.337 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+01:56:31.347 [info] The console started.
+01:56:31.347 [debug] state: %{mode: :computer_vs_computer}
+01:56:31.347 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+01:56:31.348 [info] The console started.
+01:56:31.348 [debug] state: %{mode: :computer_vs_computer}
+01:56:31.348 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+01:56:31.348 [info] The console started.
+01:56:31.348 [debug] state: %{mode: :computer_vs_computer}
+01:56:31.349 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+01:56:31.349 [info] Application tic_tac_toe exited: shutdown
+01:58:23.464 [info] The game agent started.
+01:58:23.465 [info] The console started.
+01:58:23.469 [debug] state: %{mode: :computer_vs_computer}
+01:58:23.473 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+01:58:23.483 [info] The console started.
+01:58:23.483 [debug] state: %{mode: :computer_vs_computer}
+01:58:23.483 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+01:58:23.484 [info] The console started.
+01:58:23.484 [debug] state: %{mode: :computer_vs_computer}
+01:58:23.484 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+01:58:23.484 [info] The console started.
+01:58:23.484 [debug] state: %{mode: :computer_vs_computer}
+01:58:23.484 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+01:58:23.485 [info] Application tic_tac_toe exited: shutdown
+02:00:00.019 [info] The game agent started.
+02:00:00.021 [info] The console started.
+02:00:00.025 [debug] state: %{mode: :human_vs_computer}
+02:00:02.975 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:00:02.983 [info] The console started.
+02:00:02.983 [debug] state: %{mode: :human_vs_computer}
+02:00:03.484 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:00:03.485 [info] The console started.
+02:00:03.485 [debug] state: %{mode: :human_vs_computer}
+02:00:03.987 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:00:03.988 [info] The console started.
+02:00:03.988 [debug] state: %{mode: :human_vs_computer}
+02:00:04.489 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:00:04.491 [info] Application tic_tac_toe exited: shutdown
+02:00:24.080 [info] The game agent started.
+02:00:24.082 [info] The console started.
+02:00:24.086 [debug] state: %{mode: :computer_vs_computer}
+02:00:24.090 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:00:24.097 [info] The console started.
+02:00:24.097 [debug] state: %{mode: :computer_vs_computer}
+02:00:24.098 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:00:24.098 [info] The console started.
+02:00:24.098 [debug] state: %{mode: :computer_vs_computer}
+02:00:24.099 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:00:24.099 [info] The console started.
+02:00:24.099 [debug] state: %{mode: :computer_vs_computer}
+02:00:24.099 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:00:24.100 [info] Application tic_tac_toe exited: shutdown
+02:03:10.156 [info] The game agent started.
+02:03:10.158 [info] The console started.
+02:03:10.161 [debug] state: %{mode: :human_vs_computer}
+02:03:17.216 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:03:17.226 [info] The console started.
+02:03:17.226 [debug] state: %{mode: :human_vs_computer}
+02:03:17.726 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:03:17.727 [info] The console started.
+02:03:17.727 [debug] state: %{mode: :human_vs_computer}
+02:03:18.228 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:03:18.229 [info] The console started.
+02:03:18.229 [debug] state: %{mode: :human_vs_computer}
+02:03:18.730 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:03:18.732 [info] Application tic_tac_toe exited: shutdown
+02:03:55.727 [info] The game agent started.
+02:03:55.729 [info] The console started.
+02:03:55.732 [debug] state: %{mode: :human_vs_computer}
+02:04:01.586 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:04:01.595 [info] The console started.
+02:04:01.595 [debug] state: %{mode: :human_vs_computer}
+02:04:02.095 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:04:02.096 [info] The console started.
+02:04:02.096 [debug] state: %{mode: :human_vs_computer}
+02:04:02.597 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:04:02.598 [info] The console started.
+02:04:02.598 [debug] state: %{mode: :human_vs_computer}
+02:04:03.099 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:04:03.100 [info] Application tic_tac_toe exited: shutdown
+02:04:53.246 [info] The game agent started.
+02:04:53.247 [info] The console started.
+02:04:53.251 [debug] state: %{mode: :human_vs_human}
+02:08:17.554 [info] The game agent started.
+02:08:17.556 [info] The console started.
+02:08:17.560 [debug] state: %{mode: :human_vs_computer}
+02:12:15.348 [info] The game agent started.
+02:12:15.350 [info] The console started.
+02:12:15.354 [debug] state: %{mode: :computer_vs_computer}
+02:12:15.356 [debug] state: %{mode: :computer_vs_computer}
+02:12:15.358 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:12:15.367 [info] The console started.
+02:12:15.367 [debug] state: %{mode: :computer_vs_computer}
+02:12:15.368 [debug] state: %{mode: :computer_vs_computer}
+02:12:15.368 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:12:15.368 [info] The console started.
+02:12:15.368 [debug] state: %{mode: :computer_vs_computer}
+02:12:15.368 [debug] state: %{mode: :computer_vs_computer}
+02:12:15.368 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:12:15.368 [info] The console started.
+02:12:15.368 [debug] state: %{mode: :computer_vs_computer}
+02:12:15.368 [debug] state: %{mode: :computer_vs_computer}
+02:12:15.368 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:12:15.369 [info] Application tic_tac_toe exited: shutdown
+02:12:25.412 [info] The game agent started.
+02:12:25.413 [info] The console started.
+02:12:25.417 [debug] state: %{mode: :human_vs_computer}
+02:12:25.418 [debug] state: %{mode: :human_vs_computer}
+02:12:28.538 [debug] state: %{mode: :human_vs_computer}
+02:12:29.043 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:63: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:36: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:12:29.053 [info] The console started.
+02:12:29.053 [debug] state: %{mode: :human_vs_computer}
+02:12:29.053 [debug] state: %{mode: :human_vs_computer}
+02:12:29.553 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:63: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:36: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:12:29.554 [info] The console started.
+02:12:29.555 [debug] state: %{mode: :human_vs_computer}
+02:12:29.555 [debug] state: %{mode: :human_vs_computer}
+02:12:30.055 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:63: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:36: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:12:30.056 [info] The console started.
+02:12:30.056 [debug] state: %{mode: :human_vs_computer}
+02:12:30.057 [debug] state: %{mode: :human_vs_computer}
+02:12:30.557 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:63: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:36: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:12:30.558 [info] Application tic_tac_toe exited: shutdown
+02:12:51.447 [info] The game agent started.
+02:12:51.448 [info] The console started.
+02:12:51.452 [debug] state: %{mode: :human_vs_computer}
+02:12:51.453 [debug] state: %{mode: :human_vs_computer}
+02:12:53.884 [debug] state: %{mode: :human_vs_computer}
+02:12:54.388 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:63: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:36: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:12:54.398 [info] The console started.
+02:12:54.398 [debug] state: %{mode: :human_vs_computer}
+02:12:54.398 [debug] state: %{mode: :human_vs_computer}
+02:12:54.899 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:63: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:36: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:12:54.900 [info] The console started.
+02:12:54.900 [debug] state: %{mode: :human_vs_computer}
+02:12:54.900 [debug] state: %{mode: :human_vs_computer}
+02:12:55.401 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:63: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:36: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:12:55.402 [info] The console started.
+02:12:55.402 [debug] state: %{mode: :human_vs_computer}
+02:12:55.403 [debug] state: %{mode: :human_vs_computer}
+02:12:55.903 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:63: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:36: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+02:12:55.905 [info] Application tic_tac_toe exited: shutdown
+02:15:58.804 [info] The game agent started.
+02:15:58.806 [info] The console started.
+02:15:58.809 [debug] state: %{mode: :human_vs_computer}
+02:15:58.809 [debug] state: %{mode: :human_vs_computer}
+02:16:00.439 [debug] state: %{mode: :human_vs_computer}
+02:16:00.948 [debug] state: %{mode: :human_vs_computer}
+02:16:04.975 [debug] state: %{mode: :human_vs_computer}
+02:16:05.476 [debug] state: %{mode: :human_vs_computer}
+02:16:24.866 [info] The game agent started.
+02:16:24.867 [info] The console started.
+02:16:24.871 [debug] state: %{mode: :computer_vs_computer}
+02:16:24.872 [debug] state: %{mode: :computer_vs_computer}
+02:16:24.874 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:16:24.880 [info] The console started.
+02:16:24.880 [debug] state: %{mode: :computer_vs_computer}
+02:16:24.880 [debug] state: %{mode: :computer_vs_computer}
+02:16:24.880 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:16:24.881 [info] The console started.
+02:16:24.881 [debug] state: %{mode: :computer_vs_computer}
+02:16:24.881 [debug] state: %{mode: :computer_vs_computer}
+02:16:24.881 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:16:24.881 [info] The console started.
+02:16:24.881 [debug] state: %{mode: :computer_vs_computer}
+02:16:24.881 [debug] state: %{mode: :computer_vs_computer}
+02:16:24.881 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:16:24.882 [info] Application tic_tac_toe exited: shutdown
+02:16:35.346 [info] The game agent started.
+02:16:35.348 [info] The console started.
+02:16:35.355 [debug] state: %{mode: :computer_vs_computer}
+02:16:35.356 [debug] state: %{mode: :computer_vs_computer}
+02:16:35.358 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:16:35.369 [info] The console started.
+02:16:35.369 [debug] state: %{mode: :computer_vs_computer}
+02:16:35.369 [debug] state: %{mode: :computer_vs_computer}
+02:16:35.369 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:16:35.370 [info] The console started.
+02:16:35.370 [debug] state: %{mode: :computer_vs_computer}
+02:16:35.370 [debug] state: %{mode: :computer_vs_computer}
+02:16:35.370 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:16:35.371 [info] The console started.
+02:16:35.371 [debug] state: %{mode: :computer_vs_computer}
+02:16:35.371 [debug] state: %{mode: :computer_vs_computer}
+02:16:35.371 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:16:35.372 [info] Application tic_tac_toe exited: shutdown
+02:16:49.029 [info] The game agent started.
+02:16:49.031 [info] The console started.
+02:16:49.035 [debug] state: %{mode: :computer_vs_computer}
+02:16:49.036 [debug] state: %{mode: :computer_vs_computer}
+02:16:49.038 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:16:49.045 [info] The console started.
+02:16:49.045 [debug] state: %{mode: :computer_vs_computer}
+02:16:49.046 [debug] state: %{mode: :computer_vs_computer}
+02:16:49.046 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:16:49.046 [info] The console started.
+02:16:49.046 [debug] state: %{mode: :computer_vs_computer}
+02:16:49.047 [debug] state: %{mode: :computer_vs_computer}
+02:16:49.047 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:16:49.047 [info] The console started.
+02:16:49.047 [debug] state: %{mode: :computer_vs_computer}
+02:16:49.047 [debug] state: %{mode: :computer_vs_computer}
+02:16:49.048 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:16:49.048 [info] Application tic_tac_toe exited: shutdown
+02:18:01.653 [info] The game agent started.
+02:18:01.655 [info] The console started.
+02:18:01.658 [debug] state: %{mode: :computer_vs_computer}
+02:18:01.660 [debug] state: %{mode: :computer_vs_computer}
+02:18:01.662 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:18:01.671 [info] The console started.
+02:18:01.671 [debug] state: %{mode: :computer_vs_computer}
+02:18:01.672 [debug] state: %{mode: :computer_vs_computer}
+02:18:01.672 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:18:01.672 [info] The console started.
+02:18:01.672 [debug] state: %{mode: :computer_vs_computer}
+02:18:01.672 [debug] state: %{mode: :computer_vs_computer}
+02:18:01.672 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:18:01.673 [info] The console started.
+02:18:01.673 [debug] state: %{mode: :computer_vs_computer}
+02:18:01.673 [debug] state: %{mode: :computer_vs_computer}
+02:18:01.673 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:33: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+02:18:01.674 [info] Application tic_tac_toe exited: shutdown
+02:18:22.718 [info] The game agent started.
+02:18:22.719 [info] The console started.
+02:18:22.722 [debug] state: %{mode: :computer_vs_computer}
+02:18:22.724 [debug] state: %{mode: :computer_vs_computer}
+02:18:23.230 [debug] state: %{mode: :computer_vs_computer}
+02:18:23.730 [debug] state: %{mode: :computer_vs_computer}
+02:18:24.231 [debug] state: %{mode: :computer_vs_computer}
+02:18:24.732 [debug] state: %{mode: :computer_vs_computer}
