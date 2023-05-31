@@ -26,6 +26,1060 @@
 08:02:36.190 [info] The game agent started.
 08:02:36.191 [info] The console started.
 08:02:36.193 [debug] state: %{}
-11:00:58.261 [info] The game agent started.
-11:00:58.264 [info] The console started.
-11:00:58.266 [debug] state: %{}
+10:01:03.494 [info] The game agent started.
+10:01:03.496 [info] The console started.
+10:01:03.497 [debug] state: %{}
+10:01:03.499 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTocToe.Game.get_grid/0 is undefined (module TicTocToe.Game is not available)
+    TicTocToe.Game.get_grid()
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.refresh_screen/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:21: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+10:01:03.503 [info] The console started.
+10:01:03.503 [debug] state: %{}
+10:01:03.503 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTocToe.Game.get_grid/0 is undefined (module TicTocToe.Game is not available)
+    TicTocToe.Game.get_grid()
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.refresh_screen/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:21: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+10:01:03.504 [info] The console started.
+10:01:03.504 [debug] state: %{}
+10:01:03.504 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTocToe.Game.get_grid/0 is undefined (module TicTocToe.Game is not available)
+    TicTocToe.Game.get_grid()
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.refresh_screen/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:21: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+10:01:03.504 [info] The console started.
+10:01:03.504 [debug] state: %{}
+10:01:03.505 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTocToe.Game.get_grid/0 is undefined (module TicTocToe.Game is not available)
+    TicTocToe.Game.get_grid()
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.refresh_screen/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:21: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+10:01:03.505 [info] Application tic_tac_toe exited: shutdown
+10:14:37.250 [info] The game agent started.
+10:14:37.251 [info] The console started.
+10:14:37.252 [debug] state: %{}
+10:14:37.253 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTocToe.Game.get_grid/0 is undefined (module TicTocToe.Game is not available)
+    TicTocToe.Game.get_grid()
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.refresh_screen/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:21: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+10:14:37.257 [info] The console started.
+10:14:37.257 [debug] state: %{}
+10:14:37.258 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTocToe.Game.get_grid/0 is undefined (module TicTocToe.Game is not available)
+    TicTocToe.Game.get_grid()
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.refresh_screen/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:21: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+10:14:37.258 [info] The console started.
+10:14:37.258 [debug] state: %{}
+10:14:37.260 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTocToe.Game.get_grid/0 is undefined (module TicTocToe.Game is not available)
+    TicTocToe.Game.get_grid()
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.refresh_screen/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:21: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+10:14:37.260 [info] The console started.
+10:14:37.260 [debug] state: %{}
+10:14:37.261 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTocToe.Game.get_grid/0 is undefined (module TicTocToe.Game is not available)
+    TicTocToe.Game.get_grid()
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.refresh_screen/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:21: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+10:14:37.261 [info] Application tic_tac_toe exited: shutdown
+10:26:02.779 [info] The game agent started.
+10:26:02.780 [info] The console started.
+10:26:02.781 [debug] state: %{}
+10:26:02.782 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTocToe.Game.get_grid/0 is undefined (module TicTocToe.Game is not available)
+    TicTocToe.Game.get_grid()
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:62: TicTacToe.Console.refresh_screen/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:21: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+10:26:02.786 [info] The console started.
+10:26:02.786 [debug] state: %{}
+10:26:02.787 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTocToe.Game.get_grid/0 is undefined (module TicTocToe.Game is not available)
+    TicTocToe.Game.get_grid()
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:62: TicTacToe.Console.refresh_screen/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:21: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+10:26:02.787 [info] The console started.
+10:26:02.787 [debug] state: %{}
+10:26:02.787 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTocToe.Game.get_grid/0 is undefined (module TicTocToe.Game is not available)
+    TicTocToe.Game.get_grid()
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:62: TicTacToe.Console.refresh_screen/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:21: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+10:26:02.787 [info] The console started.
+10:26:02.787 [debug] state: %{}
+10:26:02.788 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTocToe.Game.get_grid/0 is undefined (module TicTocToe.Game is not available)
+    TicTocToe.Game.get_grid()
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:62: TicTacToe.Console.refresh_screen/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:21: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+10:26:02.788 [info] Application tic_tac_toe exited: shutdown
+10:28:47.944 [info] The game agent started.
+10:28:47.945 [info] The console started.
+10:28:47.946 [debug] state: %{}
+10:39:15.340 [info] The game agent started.
+10:39:15.341 [info] The console started.
+10:39:15.342 [debug] state: %{}
+10:39:15.343 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in anonymous fn/1 in TicTacToe.Grid.render_row/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/grid.ex:9: anonymous fn(:x) in TicTacToe.Grid.render_row/1
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/grid.ex:9: TicTacToe.Grid.render_row/1
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/grid.ex:4: TicTacToe.Grid.render/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:63: TicTacToe.Console.refresh_screen/0
+Last message: :process_command
+State: %{}
+10:39:15.347 [info] The console started.
+10:39:15.347 [debug] state: %{}
+10:39:15.347 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in anonymous fn/1 in TicTacToe.Grid.render_row/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/grid.ex:9: anonymous fn(:x) in TicTacToe.Grid.render_row/1
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/grid.ex:9: TicTacToe.Grid.render_row/1
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/grid.ex:4: TicTacToe.Grid.render/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:63: TicTacToe.Console.refresh_screen/0
+Last message: :process_command
+State: %{}
+10:39:15.347 [info] The console started.
+10:39:15.348 [debug] state: %{}
+10:39:15.348 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in anonymous fn/1 in TicTacToe.Grid.render_row/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/grid.ex:9: anonymous fn(:x) in TicTacToe.Grid.render_row/1
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/grid.ex:9: TicTacToe.Grid.render_row/1
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/grid.ex:4: TicTacToe.Grid.render/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:63: TicTacToe.Console.refresh_screen/0
+Last message: :process_command
+State: %{}
+10:39:15.348 [info] The console started.
+10:39:15.348 [debug] state: %{}
+10:39:15.348 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in anonymous fn/1 in TicTacToe.Grid.render_row/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/grid.ex:9: anonymous fn(:x) in TicTacToe.Grid.render_row/1
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/grid.ex:9: TicTacToe.Grid.render_row/1
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (elixir 1.11.2) lib/enum.ex:1399: Enum."-map/2-lists^map/1-0-"/2
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/grid.ex:4: TicTacToe.Grid.render/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:63: TicTacToe.Console.refresh_screen/0
+Last message: :process_command
+State: %{}
+10:39:15.348 [info] Application tic_tac_toe exited: shutdown
+10:39:32.515 [info] The game agent started.
+10:39:32.516 [info] The console started.
+10:39:32.517 [debug] state: %{}
+10:39:58.084 [info] The game agent started.
+10:39:58.085 [info] The console started.
+10:39:58.087 [debug] state: %{}
+10:56:24.779 [info] The game agent started.
+10:56:24.780 [info] The console started.
+10:56:24.782 [debug] state: %{}
+11:01:30.394 [info] The game agent started.
+11:01:30.396 [info] The console started.
+11:01:30.397 [debug] state: %{}
+11:01:33.562 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+11:01:33.566 [info] The console started.
+11:01:33.566 [debug] state: %{}
+11:01:33.566 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+11:01:33.566 [info] The console started.
+11:01:33.566 [debug] state: %{}
+11:01:33.567 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+11:01:33.567 [info] The console started.
+11:01:33.567 [debug] state: %{}
+11:01:33.568 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+11:01:33.568 [info] Application tic_tac_toe exited: shutdown
+11:01:51.202 [info] The game agent started.
+11:01:51.203 [info] The console started.
+11:01:51.205 [debug] state: %{}
+11:01:54.856 [info] The game agent started.
+11:01:54.857 [info] The console started.
+11:01:54.858 [debug] state: %{}
+11:01:59.296 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+11:01:59.302 [info] The console started.
+11:01:59.302 [debug] state: %{}
+11:01:59.302 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+11:01:59.302 [info] The console started.
+11:01:59.302 [debug] state: %{}
+11:01:59.302 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+11:01:59.302 [info] The console started.
+11:01:59.302 [debug] state: %{}
+11:01:59.302 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+11:01:59.303 [info] Application tic_tac_toe exited: shutdown
+11:03:01.533 [info] The game agent started.
+11:03:01.534 [info] The console started.
+11:03:01.536 [debug] state: %{}
+11:17:04.435 [info] The game agent started.
+11:17:04.436 [info] The console started.
+11:17:04.438 [debug] state: %{}
+11:17:06.347 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+11:17:06.351 [info] The console started.
+11:17:06.351 [debug] state: %{}
+11:17:06.351 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+11:17:06.351 [info] The console started.
+11:17:06.351 [debug] state: %{}
+11:17:06.351 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+11:17:06.352 [info] The console started.
+11:17:06.352 [debug] state: %{}
+11:17:06.352 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+11:17:06.352 [info] Application tic_tac_toe exited: shutdown
+07:42:19.538 [info] The game agent started.
+07:42:19.540 [info] The console started.
+07:42:19.547 [debug] state: %{}
+07:42:32.194 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+07:42:32.205 [info] The console started.
+07:42:32.205 [debug] state: %{}
+07:42:32.205 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+07:42:32.205 [info] The console started.
+07:42:32.205 [debug] state: %{}
+07:42:32.206 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+07:42:32.206 [info] The console started.
+07:42:32.206 [debug] state: %{}
+07:42:32.206 [error] GenServer TicTacToe.Console terminating
+** (FunctionClauseError) no function clause matching in TicTacToe.Player.to_string/1
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/player.ex:5: TicTacToe.Player.to_string(:X)
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:41: TicTacToe.Console.get_prompt/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:25: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+07:42:32.207 [info] Application tic_tac_toe exited: shutdown
+07:50:47.263 [info] The game agent started.
+07:50:47.264 [info] The console started.
+07:50:47.266 [debug] state: %{}
+10:17:16.467 [info] The game agent started.
+10:17:16.469 [info] The console started.
+10:17:16.472 [debug] state: %{}
+10:44:09.364 [info] The game agent started.
+10:44:09.365 [info] The console started.
+10:44:09.366 [debug] state: %{}
+10:44:31.542 [info] The game agent started.
+10:44:31.543 [info] The console started.
+10:44:31.545 [debug] state: %{}
+10:45:25.326 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_grid/0 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_grid()
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:72: TicTacToe.Console.move/2
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:32: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{}
+10:45:25.332 [info] The console started.
+10:45:25.332 [debug] state: %{}
+10:48:36.933 [info] The game agent started.
+10:48:36.934 [info] The console started.
+10:48:36.936 [debug] state: %{}
+11:26:28.337 [info] The game agent started.
+11:26:28.338 [info] The console started.
+11:26:28.340 [debug] state: %{}
+08:23:38.435 [info] The game agent started.
+08:23:38.437 [info] The console started.
+08:23:38.440 [debug] state: %{}
+11:39:44.423 [info] The game agent started.
+11:39:44.424 [info] The console started.
+11:39:44.426 [debug] state: %{}
+12:06:37.669 [info] The game agent started.
+12:06:37.670 [info] The console started.
+12:06:37.672 [debug] state: %{mode: :human_vs_computer}
+12:06:43.438 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_bland_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_bland_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+12:06:43.442 [info] The console started.
+12:06:43.442 [debug] state: %{mode: :human_vs_computer}
+12:06:43.942 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_bland_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_bland_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+12:06:43.943 [info] The console started.
+12:06:43.943 [debug] state: %{mode: :human_vs_computer}
+12:06:44.444 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_bland_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_bland_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+12:06:44.446 [info] The console started.
+12:06:44.446 [debug] state: %{mode: :human_vs_computer}
+12:06:44.948 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_bland_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_bland_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+12:06:44.950 [info] Application tic_tac_toe exited: shutdown
+12:07:02.641 [info] The game agent started.
+12:07:02.642 [info] The console started.
+12:07:02.645 [debug] state: %{mode: :human_vs_computer}
+12:07:05.890 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_bland_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_bland_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+12:07:05.895 [info] The console started.
+12:07:05.895 [debug] state: %{mode: :human_vs_computer}
+12:07:06.396 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_bland_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_bland_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+12:07:06.397 [info] The console started.
+12:07:06.397 [debug] state: %{mode: :human_vs_computer}
+12:07:06.899 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_bland_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_bland_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+12:07:06.900 [info] The console started.
+12:07:06.900 [debug] state: %{mode: :human_vs_computer}
+12:07:07.401 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_bland_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_bland_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+12:07:07.402 [info] Application tic_tac_toe exited: shutdown
+10:32:38.221 [info] The game agent started.
+10:32:38.223 [info] The console started.
+10:32:38.227 [debug] state: %{mode: :human_vs_computer}
+10:32:41.606 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_bland_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_bland_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:32:41.613 [info] The console started.
+10:32:41.613 [debug] state: %{mode: :human_vs_computer}
+10:32:42.114 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_bland_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_bland_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:32:42.116 [info] The console started.
+10:32:42.116 [debug] state: %{mode: :human_vs_computer}
+10:32:42.618 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_bland_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_bland_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:32:42.618 [info] The console started.
+10:32:42.619 [debug] state: %{mode: :human_vs_computer}
+10:32:43.120 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_bland_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_bland_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:32:43.121 [info] Application tic_tac_toe exited: shutdown
+10:37:56.577 [info] The game agent started.
+10:37:56.578 [info] The console started.
+10:37:56.581 [debug] state: %{mode: :human_vs_computer}
+10:37:58.704 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:37:58.710 [info] The console started.
+10:37:58.710 [debug] state: %{mode: :human_vs_computer}
+10:37:59.211 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:37:59.213 [info] The console started.
+10:37:59.213 [debug] state: %{mode: :human_vs_computer}
+10:37:59.715 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:37:59.717 [info] The console started.
+10:37:59.717 [debug] state: %{mode: :human_vs_computer}
+10:38:00.218 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:38:00.220 [info] Application tic_tac_toe exited: shutdown
+10:42:41.769 [info] The game agent started.
+10:42:41.770 [info] The console started.
+10:42:41.773 [debug] state: %{mode: :human_vs_computer}
+10:42:47.486 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:42:47.492 [info] The console started.
+10:42:47.492 [debug] state: %{mode: :human_vs_computer}
+10:42:47.994 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:42:47.995 [info] The console started.
+10:42:47.995 [debug] state: %{mode: :human_vs_computer}
+10:42:48.496 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:42:48.497 [info] The console started.
+10:42:48.497 [debug] state: %{mode: :human_vs_computer}
+10:42:48.999 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:42:48.999 [info] Application tic_tac_toe exited: shutdown
+10:47:38.393 [info] The game agent started.
+10:47:38.394 [info] The console started.
+10:47:38.396 [debug] state: %{mode: :human_vs_computer}
+10:47:40.641 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:47:40.647 [info] The console started.
+10:47:40.647 [debug] state: %{mode: :human_vs_computer}
+10:47:41.148 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:47:41.150 [info] The console started.
+10:47:41.150 [debug] state: %{mode: :human_vs_computer}
+10:47:41.652 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:47:41.654 [info] The console started.
+10:47:41.654 [debug] state: %{mode: :human_vs_computer}
+10:47:42.155 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:47:42.157 [info] Application tic_tac_toe exited: shutdown
+10:51:00.918 [info] The game agent started.
+10:51:00.919 [info] The console started.
+10:51:00.922 [debug] state: %{mode: :human_vs_computer}
+10:51:02.563 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:51:02.569 [info] The console started.
+10:51:02.569 [debug] state: %{mode: :human_vs_computer}
+10:51:03.070 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:51:03.072 [info] The console started.
+10:51:03.072 [debug] state: %{mode: :human_vs_computer}
+10:51:03.573 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:51:03.574 [info] The console started.
+10:51:03.574 [debug] state: %{mode: :human_vs_computer}
+10:51:04.075 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+10:51:04.078 [info] Application tic_tac_toe exited: shutdown
+11:03:06.388 [info] The game agent started.
+11:03:06.389 [info] The console started.
+11:03:06.391 [debug] state: %{mode: :human_vs_human}
+11:27:23.147 [info] The game agent started.
+11:27:23.148 [info] The console started.
+11:27:23.150 [debug] state: %{mode: :human_vs_computer}
+11:27:24.784 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+11:27:24.789 [info] The console started.
+11:27:24.789 [debug] state: %{mode: :human_vs_computer}
+11:27:25.291 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+11:27:25.292 [info] The console started.
+11:27:25.292 [debug] state: %{mode: :human_vs_computer}
+11:27:25.794 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+11:27:25.795 [info] The console started.
+11:27:25.795 [debug] state: %{mode: :human_vs_computer}
+11:27:26.297 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+11:27:26.300 [info] Application tic_tac_toe exited: shutdown
+11:29:46.578 [info] The game agent started.
+11:29:46.579 [info] The console started.
+11:29:46.584 [debug] state: %{mode: :human_vs_computer}
+11:29:49.899 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+11:29:49.904 [info] The console started.
+11:29:49.904 [debug] state: %{mode: :human_vs_computer}
+11:29:50.405 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+11:29:50.406 [info] The console started.
+11:29:50.406 [debug] state: %{mode: :human_vs_computer}
+11:29:50.906 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+11:29:50.907 [info] The console started.
+11:29:50.907 [debug] state: %{mode: :human_vs_computer}
+11:29:51.407 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+11:29:51.408 [info] Application tic_tac_toe exited: shutdown
+05:43:03.693 [info] The game agent started.
+05:43:03.695 [info] The console started.
+05:43:03.700 [debug] state: %{mode: :human_vs_computer}
+05:43:06.198 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+05:43:06.205 [info] The console started.
+05:43:06.205 [debug] state: %{mode: :human_vs_computer}
+05:43:06.706 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+05:43:06.708 [info] The console started.
+05:43:06.708 [debug] state: %{mode: :human_vs_computer}
+05:43:07.209 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+05:43:07.210 [info] The console started.
+05:43:07.211 [debug] state: %{mode: :human_vs_computer}
+05:43:07.712 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:60: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+05:43:07.714 [info] Application tic_tac_toe exited: shutdown
+11:36:19.343 [info] The game agent started.
+11:36:19.345 [info] The console started.
+11:36:19.351 [debug] state: %{mode: :computer_vs_computer}
+11:36:19.354 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+11:36:19.360 [info] The console started.
+11:36:19.360 [debug] state: %{mode: :computer_vs_computer}
+11:36:19.360 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+11:36:19.361 [info] The console started.
+11:36:19.361 [debug] state: %{mode: :computer_vs_computer}
+11:36:19.361 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+11:36:19.361 [info] The console started.
+11:36:19.361 [debug] state: %{mode: :computer_vs_computer}
+11:36:19.361 [error] GenServer TicTacToe.Console terminating
+** (CaseClauseError) no case clause matching: {:computer_vs_computer, :o}
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:31: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :computer_vs_computer}
+11:36:19.362 [info] Application tic_tac_toe exited: shutdown
+12:01:05.942 [info] The game agent started.
+12:01:05.943 [info] The console started.
+12:01:05.946 [debug] state: %{mode: :human_vs_computer}
+12:01:10.532 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+12:01:10.537 [info] The console started.
+12:01:10.537 [debug] state: %{mode: :human_vs_computer}
+12:01:11.038 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+12:01:11.039 [info] The console started.
+12:01:11.039 [debug] state: %{mode: :human_vs_computer}
+12:01:11.539 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+12:01:11.540 [info] The console started.
+12:01:11.540 [debug] state: %{mode: :human_vs_computer}
+12:01:12.041 [error] GenServer TicTacToe.Console terminating
+** (UndefinedFunctionError) function TicTacToe.Grid.get_blank_cells/1 is undefined or private
+    (tic_tac_toe 0.1.0) TicTacToe.Grid.get_blank_cells([[:o, :b, :b], [:b, :b, :b], [:b, :b, :b]])
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:61: TicTacToe.Console.computer_turn/0
+    (tic_tac_toe 0.1.0) lib/tic_tac_toe/console.ex:34: TicTacToe.Console.handle_info/2
+    (stdlib 3.14) gen_server.erl:689: :gen_server.try_dispatch/4
+    (stdlib 3.14) gen_server.erl:765: :gen_server.handle_msg/6
+    (stdlib 3.14) proc_lib.erl:226: :proc_lib.init_p_do_apply/3
+Last message: :process_command
+State: %{mode: :human_vs_computer}
+12:01:12.044 [info] Application tic_tac_toe exited: shutdown
